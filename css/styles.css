@@ -227,10 +227,11 @@ h1,h2,h3,p,ul {
 
 .benefits {
     display: flex;
-    width: calc((100%-90px) / 4);
 
 }
+
 .benefit-item { 
+
     margin-right: 30px;
 }
 .benefit-item:last-child {
@@ -238,11 +239,15 @@ h1,h2,h3,p,ul {
 }
 
 .benefit-icon {
+    display: flex;
     background: #F5F4FA;
     border-radius: 4px;
-    padding: 25px 102px;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
+    height: 120px;
 }
+
 .icon {
     width: 65px;
     height: 70px;
@@ -321,6 +326,7 @@ h1,h2,h3,p,ul {
 
         width: calc((100%-90px) / 4);
         margin-right: 30px;
+        background-color: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px
 }
@@ -369,7 +375,7 @@ display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-    fill: var(--secondary-text-color);
+    fill: #AFB1B8;
 }
 .net-list:not(:last-child) {
     margin-right: 10px;
@@ -388,38 +394,47 @@ display: flex;
 .title-clients {
     color: var(--primary-text-color);
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
-        margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 50px;
 }
+
 .list-clients {
 display: flex;
-align-items: center;
 justify-content: center;
+align-items: center;
+
 }
 
 .item-clients {
-border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 170px;
-    height: 92px;
+
 }
 
 .link-clients {
-    display: block;
+    display: flex;
+    border: 1px solid #AFB1B8;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+   
 }
+
 .link-clients:hover,
-.link-clsents:focus {
-fill: var(--bg-hover-logo);
+.link-clients:focus {
+    color: var(--bg-hover-logo);
+    border-color: var(--bg-hover-logo);
 }
+
 .item-clients:not(:last-child) {
     margin-right: 30px;
 }
 
 .icons-clients {
     fill: #AFB1B8;
+
 }
 .icons-clients:hover,
 .icons-clients:focus {
