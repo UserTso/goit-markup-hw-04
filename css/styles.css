@@ -407,9 +407,7 @@ align-items: center;
 
 }
 
-.item-clients {
 
-}
 
 .link-clients {
     display: flex;
@@ -452,6 +450,7 @@ align-items: center;
 
 .footer {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-auth {
@@ -517,7 +516,6 @@ align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 20px;
-        margin-top: 22px;
 }
 
 .footer-listnet {
