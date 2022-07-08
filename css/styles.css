@@ -406,6 +406,10 @@ border: 1px solid #AFB1B8;
     width: 170px;
     height: 92px;
 }
+
+.link-clients {
+    display: block;
+}
 .link-clients:hover,
 .link-clsents:focus {
 fill: var(--bg-hover-logo);
