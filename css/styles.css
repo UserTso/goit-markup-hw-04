@@ -125,22 +125,21 @@ h1,h2,h3,p,ul {
 .link-auth:hover,
 .link-auth:focus {
     color: var(--bg-hover-logo);
+    /* fill: var(--bg-hover-logo); */
+}
+
+.link-auth:hover .icon-auth, 
+.link-auth:focus .icon-auth {
     fill: var(--bg-hover-logo);
 }
 
-.icon-envelope {
-    width: 16px;
-    height: 12px;
+
+.icon-auth {
+   
     margin-right: 10px;
+    fill: var(--secondary-text-color);
 }
 
-
-.icon-phone {
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-
-}
 
 
 
@@ -383,12 +382,16 @@ display: flex;
 
 .net-link:hover,
 .net-link:focus {
-    background-color: var(--bg-hover-logo);
-    border-radius: 50px;
-    fill: #FFFFFF;
+    color: var(--bg-hover-logo);
+  
+}
+.net-link:hover .net-icons,
+.net-link:focus .net-icons {
+    fill: var(--bg-hover-logo);
 }
 
-
+  /* border-radius: 50px; */
+  /* fill: #FFFFFF; */
 
 /* CLIENTS */
 .title-clients {
@@ -424,6 +427,12 @@ align-items: center;
 .link-clients:focus {
     color: var(--bg-hover-logo);
     border-color: var(--bg-hover-logo);
+}
+
+
+.link-clients:hover .icons-clients,
+.link-clients:focus .icons-clients {
+    fill: var(--bg-hover-logo);
 }
 
 .item-clients:not(:last-child) {
