@@ -382,12 +382,14 @@ display: flex;
 
 .net-link:hover,
 .net-link:focus {
-    color: var(--bg-hover-logo);
+    background-color: var(--bg-hover-logo);
+    border-radius: 50px;
+    fill: #FFFFFF;
   
 }
 .net-link:hover .net-icons,
 .net-link:focus .net-icons {
-    fill: var(--bg-hover-logo);
+fill: #FFFFFF;
 }
 
   /* border-radius: 50px; */
